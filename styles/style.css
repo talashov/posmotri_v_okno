@@ -36,3 +36,162 @@ ul,
 ol {
   list-style: none;
 }
+
+.page {}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
+  width: 1140px;
+  height: 534px;
+  /* margin-top: 133px; */
+}
+
+.result {}
+
+.result__video-container {
+  width: 711px;
+  margin-bottom: 16px;
+}
+
+.result__video {
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.search-form__fieldset {}
+
+.search-form__fieldset-title {}
+
+.search-form__label {}
+
+.search-form__label-text {}
+
+.visually-hidden {}
+
+.search-form__textfield {}
+
+.search-form__checkbox-list {}
+
+.search-form__checkbox {}
+
+.search-form__pseudo-checkbox {}
+
+.button {
+  border: 1px solid #fff;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.search-form__submit-button {
+  padding: 6px 73px;
+}
+
+.content__details {
+  height: 100%;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 94%;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 26px;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  height: 298px;
+  overflow-y: auto;
+}
+
+.preloader-template {}
+
+.preloader {}
+
+.preloader-chasing-squares {}
+
+.square {}
+
+.cards-list-item-template {}
+
+.content__list-item {}
+
+.content__list-item:not(:last-of-type) {
+  margin-bottom: 32px;
+}
+
+.content__card-link {
+  text-decoration: none;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.content__video-card {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content__video-card:active {
+background-color: #545050;
+}
+
+.content__video-card-description-container {
+  width: 100%;
+  list-style-type: none;
+}
+
+.content__video-card-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.content__video-card-description {
+  font-weight: 400;
+  line-height: 90%;
+  color: #fff;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+}
+
+.more-button-template {}
+
+.more-button {
+  padding: 6px 146px;
+}
+
+.error-template {}
+
+.error {}
+
+.error__title {}
