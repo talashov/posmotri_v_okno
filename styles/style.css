@@ -69,7 +69,11 @@ ol {
 
 .search-form__fieldset {}
 
-.search-form__fieldset-title {}
+.search-form__fieldset-title {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
 
 .search-form__label {}
 
@@ -107,6 +111,7 @@ ol {
 }
 
 .title {
+  font-family: Oswald;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -171,6 +176,7 @@ ol {
 }
 
 .content__video-card-title {
+  font-family: Oswald;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
