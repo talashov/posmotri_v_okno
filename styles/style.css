@@ -9,6 +9,8 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -109,6 +111,10 @@ ol {
   appearance: none;
 }
 
+.search-form__textfield:has(:focus-visible) {
+  border: none;
+}
+
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
@@ -124,8 +130,15 @@ ol {
   margin-right: 2px;
   vertical-align: middle;
   cursor: pointer;
-  /* background-color: transparent; */
 }
+
+.search-form__pseudo-checkbox:checked {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+}
+
+.search-form__pseudo-checkbox:active {}
 
 .button {
   border: 1px solid #fff;
@@ -173,11 +186,7 @@ ol {
 
 .preloader-template {}
 
-.preloader {
-  /* position: absolute; */
-  /* z-index: 2; */
-  /* Убрать */
-}
+.preloader {}
 
 .preloader-chasing-squares {}
 
