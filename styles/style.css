@@ -52,7 +52,6 @@ ol {
 
 .content {
   display: flex;
-  justify-content: space-between;
   align-items: flex-end;
   gap: 30px;
   width: 1140px;
@@ -93,7 +92,13 @@ ol {
   cursor: pointer;
 }
 
-.visually-hidden {}
+.search-form__label-text:hover {
+  text-decoration: underline;
+}
+
+.search-form__label-text:active {
+  text-decoration: none;
+}
 
 .search-form__textfield {
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -130,14 +135,13 @@ ol {
   cursor: pointer;
 }
 
-.search-form__pseudo-checkbox:checked {
-}
+.search-form__pseudo-checkbox:checked {}
 
-.search-form__pseudo-checkbox:active {
-}
+.search-form__pseudo-checkbox:active {}
 
 .button {
   border: 1px solid #fff;
+  font-size: 18px;
   font-weight: 700;
   text-align: center;
   color: #fff;
@@ -147,6 +151,11 @@ ol {
 
 .button:hover {
   text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+  text-decoration: none;
 }
 
 .search-form__submit-button {
@@ -176,7 +185,7 @@ ol {
   display: flex;
   flex-direction: column;
   height: 298px;
-  overflow-y: auto;
+  scrollbar-width: none;
   overflow-x: hidden;
 }
 
@@ -203,6 +212,11 @@ ol {
 .content__card-link:hover {
   text-decoration: underline;
   color: #fff;
+}
+
+.content__card-link:active {
+  background-color: #545050;
+  text-decoration: none;
 }
 
 .content__video-card {
@@ -242,7 +256,7 @@ ol {
 .more-button-template {}
 
 .more-button {
-  padding: 6px 146px;
+  padding: 6px 137px;
 }
 
 .error-template {}
