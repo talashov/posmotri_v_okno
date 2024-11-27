@@ -216,11 +216,17 @@ ol {
   overflow-x: hidden;
 }
 
+.content__list-item {
+  margin-right: 3px;
+  margin-left: 2px;
+}
+
 .content__list-item:not(:last-of-type) {
   margin-bottom: 32px;
 }
 
 .content__card-link {
+  display: block;
   text-decoration: none;
 }
 
@@ -237,7 +243,7 @@ ol {
 .content__video-card {
   display: flex;
   justify-content: flex-start;
-  margin: 3px;
+  margin-top: 3px;
 }
 
 .content__video-card:focus {
@@ -250,6 +256,10 @@ ol {
 }
 
 .content__video-card:active {
+  background-color: #545050;
+}
+
+.content__card-link_current {
   background-color: #545050;
 }
 
