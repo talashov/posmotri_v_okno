@@ -212,8 +212,7 @@ ol {
   display: flex;
   flex-direction: column;
   height: 298px;
-  scrollbar-width: none;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 .content__list-item {
