@@ -75,7 +75,7 @@ ol {
   align-items: flex-end;
   justify-content: space-between;
   gap: 30px;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
 }
 
 .search-form__fieldset {
@@ -209,7 +209,7 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 310px;
+  height: 317px;
   overflow-x: auto;
 }
 
@@ -297,6 +297,7 @@ ol {
 }
 
 .more-button {
-  margin: 2px;
-  padding: 6px 135px;
+  margin-bottom: 15px;
+  margin-left: 2px;
+  padding: 6px 140px;
 }
