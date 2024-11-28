@@ -99,12 +99,12 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label-text {
-  cursor: pointer;
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
 }
 
-.search-form__label-text:hover {
-  text-decoration: underline;
+.search-form__label-text {
+  cursor: pointer;
 }
 
 .search-form__label-text:active {
